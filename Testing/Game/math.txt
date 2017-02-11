@@ -1,0 +1,9 @@
+﻿Let
+    h = height of object being jumped off of
+    m = max height of jump (at this point velocity turns negative to simulate gravity)
+
+Word form
+    For whatever value h is, allow the player to only jump 10 meters off of said object.
+
+Equation
+    h + 10 = m
