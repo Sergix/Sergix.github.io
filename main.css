@@ -9,3 +9,27 @@ body {
 .navbar-brand {
     margin-top: -1em;
 }
+
+.navbar-toggle {
+    background-color: #bababa;
+}
+
+.icon-bar {
+    background-color: #efefef;
+}
+
+.jumbotron {
+    background-image: url('img/jumbotron.png');
+    background-size: cover;
+}
+
+.jumbotron h2 {
+    color: #fff;
+    font-family: Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8rem;
+}
+
+.jumbotron h3 {
+    color: #dbdbdb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
