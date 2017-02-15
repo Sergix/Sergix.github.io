@@ -11,7 +11,11 @@ body {
 }
 
 .navbar {
-    background-color: #dddddd;
+    /*background-color: #dddddd;*/
+    padding-left: 5%;
+    background-color: #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
 }
 
 .navbar-brand {
@@ -26,12 +30,17 @@ body {
     background-color: #efefef;
 }
 
+#sergix-toggle-nav ul li a {
+    font-size: 1.5rem;
+    font-family: "Segoe UI", sans-serif;
+}
+
 .jumbotron {
     background-image: url('img/jumbotron-large.png');
     background-size: cover;
 }
 
-.jumbotron h2 {
+.jumbotron h1 {
     color: #fff;
     font-family: "Adamas", Helvetica, sans-serif;
     font-size: 12rem;
@@ -39,7 +48,7 @@ body {
 
 .jumbotron h3 {
     color: #dbdbdb;
-    font-size: 9rem;
+    font-size: 5rem;
     font-family: "Prime Light", Tahoma, sans-serif;
 }
 
