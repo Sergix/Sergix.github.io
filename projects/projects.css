@@ -1,0 +1,39 @@
+.jumbotron {
+    background-image: url('/img/jumbotron-black.png');
+    background-size: cover;
+}
+
+.jumbotron .row {
+    padding: 2em;
+}
+
+h1 {
+    color: #2b2944;
+    font-size: 4rem;
+    font-family: "Prime";
+}
+
+h2 {
+    color: #d2cc28;
+    font-size: 3.5rem;
+    font-family: "Axis";
+}
+
+.h3 {
+    font-family: serif;
+    font-size: 7rem;
+    color: #000;
+}
+
+p {
+    font-size: 3rem;
+    font-family: "Segoe UI light", sans-serif;
+}
+
+.special-h {
+    font-style: italic;
+}
+
+.project-image img {
+    width: 100%;
+}

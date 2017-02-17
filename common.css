@@ -1,17 +1,24 @@
 /*
 Color Palette
 - navy/slate blue: #2b2944
+- darker ^: #1b1f2a
 - gold"ish": #d2cc28
 - mint: #2be772
 
 */
 
+body {
+    background-color: #efefef;
+}
+
 .navbar {
     /*background-color: #dddddd;*/
     padding-left: 5%;
-    background-color: #ddd;
-    border-bottom: 1px solid #ddd;
+    background-color: #1b1f2a;
     border-radius: 0px;
+    position: fixed;
+    z-index: 1001;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -19,7 +26,7 @@ Color Palette
 }
 
 .navbar-toggle {
-    background-color: #bababa;
+    background-color: #2b2944;
 }
 
 .icon-bar {
@@ -28,5 +35,14 @@ Color Palette
 
 #sergix-toggle-nav ul li a {
     font-size: 1.5rem;
+    padding: 1em 1.5em 1em 1.5em;
     font-family: "Segoe UI", sans-serif;
+}
+
+#sergix-toggle-nav ul li a:hover {
+    background-color: #2be772;
+}
+
+.jumbotron {
+    padding-top: 5em;
 }
