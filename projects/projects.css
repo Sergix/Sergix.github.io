@@ -1,5 +1,21 @@
+.jumbotron h1 {
+    color: #ddd;
+    font-size: 7rem;
+    font-family: "Prime";
+}
+
+h2 {
+    font-family: "Axis";
+    font-size: 4em;
+}
+
+p {
+    font-size: 2.5rem;
+    font-family: "Segoe UI light", sans-serif;
+}
+
 .jumbotron {
-    background-image: url('/img/jumbotron-black.png');
+    background-color: #2b2944;
     background-size: cover;
 }
 
@@ -7,16 +23,9 @@
     padding: 2em;
 }
 
-h1 {
-    color: #2b2944;
-    font-size: 4rem;
-    font-family: "Prime";
-}
-
-h2 {
+.jumbotron .row h2 {
     color: #d2cc28;
     font-size: 3.5rem;
-    font-family: "Axis";
 }
 
 .h3 {
@@ -25,15 +34,10 @@ h2 {
     color: #000;
 }
 
-p {
-    font-size: 3rem;
-    font-family: "Segoe UI light", sans-serif;
-}
-
 .special-h {
     font-style: italic;
 }
 
-.project-image img {
+.project-image {
     width: 100%;
 }
