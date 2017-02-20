@@ -1,0 +1,48 @@
+.jumbotron h1 {
+    color: #333;
+    font-size: 5rem;
+    font-family: "Segoe UI Light", Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: "Axis";
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2.5rem;
+    font-family: "Segoe UI light", sans-serif;
+}
+
+.jumbotron {
+    background-color: #ddd;
+    background-size: cover;
+}
+
+.jumbotron .row {
+    padding: 2em;
+}
+
+.jumbotron .row h2 {
+    color: #d2cc28;
+    font-size: 3.5rem;
+}
+
+.subheading {
+    padding: 1em;
+}
+
+.disabled {
+    color: #444;
+    text-decoration: none;
+}
+
+.disabled:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+.disabled:active {
+    color: #444;
+    text-decoration: none;
+}
