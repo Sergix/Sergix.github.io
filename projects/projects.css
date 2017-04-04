@@ -14,7 +14,7 @@ p {
 .jumbotron h1 {
     color: #aaa;
     font-size: 6rem;
-    font-family: "Segoe UI Light";
+    font-family: "Segoe UI Light", sans-serif;
 }
 
 .jumbotron .row h2 {
