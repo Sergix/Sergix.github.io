@@ -12,14 +12,29 @@ p {
 }
 
 .jumbotron h1 {
-    color: #aaa;
+    color: #000;
     font-size: 6rem;
-    font-family: "Segoe UI Light", sans-serif;
+    font-family: "Ostrich Sans", sans-serif;
+
+    animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -o-animation-duration: 3s;
 }
 
 .jumbotron .row h2 {
     color: #d2cc28;
     font-size: 3.5rem;
+
+    animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    -o-animation-delay: 3s;
+
+    animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -o-animation-duration: 3s;
 }
 
 .h3 {

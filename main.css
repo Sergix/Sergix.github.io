@@ -11,12 +11,27 @@ body {
     color: #fff;
     font-family: "Adamas", Helvetica, sans-serif;
     font-size: 9rem;
+
+    animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+
+    animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -o-animation-duration: 3s;
 }
 
 .jumbotron h3 {
     color: #dbdbdb;
     font-size: 4rem;
     font-family: "Prime Light", Tahoma, sans-serif;
+
+    animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -o-animation-duration: 3s;
 }
 
 .dev-text h2 {

@@ -1,5 +1,10 @@
 .jumbotron .row img {
     width: 100%;
+
+    animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -o-animation-duration: 3s;
 }
 
 h1 {
