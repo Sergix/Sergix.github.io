@@ -1,6 +1,8 @@
 .jumbotron {
-    background-image: url('img/jumbotron-large.png');
+    background-image: url('img/jumbotron-large-blur.png');
     background-size: cover;
+    padding-bottom: 9em;
+    padding-top: 9em;
 }
 
 .jumbotron h1 {
