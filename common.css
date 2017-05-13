@@ -31,6 +31,7 @@ h2 {
 
 .navbar-toggle {
     background-color: #2b2944;
+    float: left;
 }
 
 .icon-bar {

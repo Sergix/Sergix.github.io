@@ -1,7 +1,3 @@
-body {
-
-}
-
 .jumbotron {
     background-image: url('img/jumbotron-large.png');
     background-size: cover;
@@ -37,7 +33,7 @@ body {
 .dev-text h2 {
     color: #2b2944;
     font-family: "Axis";
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 .info-section h3 {
