@@ -16,6 +16,8 @@ p {
     font-size: 6rem;
     font-family: "Ostrich Sans", sans-serif;
 
+    text-shadow: 10px 10px 15px #888;
+
     animation-duration: 3s;
     -moz-animation-duration: 3s;
     -webkit-animation-duration: 3s;
