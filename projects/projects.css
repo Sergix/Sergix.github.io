@@ -1,11 +1,16 @@
 h2 {
     font-family: "Axis";
-    font-size: 4rem;
+    font-size: 3rem;
+}
+
+figure h2 {
+    text-align: center;
 }
 
 p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Segoe UI Light", sans-serif;
+    text-align: justify;
 }
 .jumbotron .row {
     padding: 2em;
@@ -51,4 +56,7 @@ p {
 
 .project-image {
     width: 100%;
+    
+    border: 1px solid #bbb;
+    border-radius: 8px;
 }

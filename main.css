@@ -57,6 +57,13 @@
     margin-top: 10rem;
 }
 
+.project-list div figure h2 {
+    margin-bottom: 1em;
+}
+
 .project-image img {
       width: 100%;
+
+      border: 1px solid #bbb;
+      border-radius: 8px;
 }
