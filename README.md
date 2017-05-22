@@ -1,2 +1,2 @@
-# Sergix7440.github.io
+# Sergix.github.io
 GitHub pages for Sergix.
