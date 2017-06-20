@@ -12,6 +12,14 @@ p {
     font-family: "Segoe UI Light", sans-serif;
     text-align: justify;
 }
+
+.jumbotron {
+    background-image: url('img/jumbotron-small-defin.png');
+    background-size: cover;
+    padding-bottom: 9em;
+    padding-top: 9em;
+}
+
 .jumbotron .row {
     padding: 2em;
 }
