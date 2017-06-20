@@ -14,10 +14,9 @@ p {
 }
 
 .jumbotron {
-    background-image: url('img/jumbotron-small-defin.png');
-    background-size: cover;
-    padding-bottom: 9em;
-    padding-top: 9em;
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 2em;
 }
 
 .jumbotron .row {
@@ -26,8 +25,8 @@ p {
 
 .jumbotron h1 {
     color: #000;
-    font-size: 6rem;
-    font-family: "Ostrich Sans", sans-serif;
+    font-size: 5rem;
+    font-family: serif;
 
     text-shadow: 10px 10px 15px #888;
 
@@ -40,6 +39,8 @@ p {
 .jumbotron .row h2 {
     color: #d2cc28;
     font-size: 3.5rem;
+    font-family: serif;
+    font-style: italic;
 
     animation-delay: 3s;
     -moz-animation-delay: 3s;
@@ -50,6 +51,25 @@ p {
     -moz-animation-duration: 3s;
     -webkit-animation-duration: 3s;
     -o-animation-duration: 3s;
+}
+
+.jumbotron .row p {
+    font-family: serif;
+    font-size: 2.5rem;
+
+    animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    -o-animation-delay: 5s;
+
+    animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    -o-animation-duration: 4s;
+}
+
+.jumbotron .row p .num {
+    font-size: 3rem;
 }
 
 .h3 {
