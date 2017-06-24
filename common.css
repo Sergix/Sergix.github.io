@@ -8,48 +8,91 @@ Color Palette
 */
 
 body {
-    background-color: #efefef;
+    background-color: #fefefe;
 }
 
 h2 {
     color: #2b2944;
 }
 
+.dev-text h2 {
+    color: #2b2944;
+    font-family: "Panton Light Italic";
+    font-size: 4rem;
+}
+
+.jumbotron {
+    /*padding: 5em;*/
+    background-color: #fefefe;
+}
+
 .navbar {
-    /*background-color: #dddddd;*/
-    padding-left: 5%;
-    background-color: #1b1f2a;
+    background-color: #fefefe;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    /*background-color: #1b1f2a;*/
     border-radius: 0px;
     position: fixed;
     z-index: 1001;
     width: 100%;
+    border-bottom: 1px solid #efefef;
 }
 
 .navbar-brand img {
-    margin-top: -1em;
+    margin-top: -.5em;
+    width: 10em;
 }
 
 .navbar-toggle {
-    background-color: #2b2944;
+    background-color: #fff;
     float: left;
+    margin-left: -5%;
 }
 
 .icon-bar {
-    background-color: #efefef;
+    background-color: #2be772;
 }
 
 #sergix-toggle-nav ul li a {
     font-size: 1.5rem;
     padding: 1em 1.5em 1em 1.5em;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Segoe UI Light", sans-serif;
 }
 
 #sergix-toggle-nav ul li a:hover {
     background-color: #2be772;
 }
 
+
 .jumbotron {
-    padding-top: 5em;
+    padding-top: 5rem;
+}
+
+.info-section {
+    padding: 3em;
+}
+
+.info, .project-images {
+    padding: 5%;
+}
+
+.project-images {
+    padding-top: 0;
+}
+
+.project-images .dev-text {
+    padding: 0 3em 4em 3em;
+}
+
+.project-images .row figure {
+    margin-top: 1em;
+}
+
+.project-images .row figure img {
+    width: 100%;
+
+    border: 1px solid #bbb;
+    border-radius: 8px;
 }
 
 footer p {
