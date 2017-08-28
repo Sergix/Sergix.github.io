@@ -1,6 +1,9 @@
 * { box-sizing: border-box; }
 
-
+.grid {
+    width: 90%;
+    margin-left: 5%;
+}
 /* clear fix */
 .grid:after {
   content: '';
@@ -9,13 +12,9 @@
 }
 
 .grid-sizer,
-.grid-item {
-  width: 33.333%;
-}
+.grid-item { width: 25%; }
 
-.grid-item {
-  float: left;
-}
+.grid-item--width2 { width: 50%; }
 
 .grid-item img {
   display: block;
@@ -39,4 +38,9 @@
 .jumbotron {
     background-image: url('/img/jumbotron-design.png');
     background-size: cover;
+}
+
+.image-info h2 {
+    font-family: 'Panton Light Italic';
+    font-size: 18pt;
 }
