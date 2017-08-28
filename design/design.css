@@ -44,3 +44,15 @@
     font-family: 'Panton Light Italic';
     font-size: 18pt;
 }
+
+@media screen and (max-width: 768px) {
+  .grid {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .grid-sizer,
+  .grid-item { width: 33.333%; }
+  
+  .grid-item--width2 { width: 66.666%; }
+}
