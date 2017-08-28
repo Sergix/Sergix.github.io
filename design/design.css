@@ -56,3 +56,15 @@
   
   .grid-item--width2 { width: 66.666%; }
 }
+
+@media screen and (max-width: 640px) {
+    .grid {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .grid-sizer,
+    .grid-item { width: 100%; }
+    
+    .grid-item--width2 { width: 100%; }
+  }
