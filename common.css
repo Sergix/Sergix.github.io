@@ -14,7 +14,7 @@ Color Palette
 body {
     margin-left: 5%;
     margin-right: 5%;
-    background-color: #f0f0f0;
+    background-color: #fefefe;
 }
 
 h2 {
@@ -33,13 +33,12 @@ p {
 }
 
 .jumbotron {
-    /*padding: 5em;*/
-    background-color: #2be772;
+    /*background-color: #6fde99;*/
+    background-color: #6ac3cb;
 }
 
 .navbar {
-    background-color: #f0f0f0;
-    /*background-color: #1b1f2a;*/
+    background-color: #fefefe;
     border-radius: 0px;
     position: fixed;
     z-index: 1001;
@@ -81,7 +80,7 @@ p {
 }
 
 .info-section h3 {
-    color: #2be772;
+    color: #6ac3cb;
     font-size: 2.5rem;
     font-family: "Mosk SemiBold", sans-serif;
 }

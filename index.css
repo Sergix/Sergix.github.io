@@ -1,5 +1,4 @@
 .jumbotron {
-    background-color: #2be772;
     padding-bottom: 15rem;
     padding-top: 15rem;
 }
@@ -21,8 +20,7 @@
 
 .jumbotron h1 {
     color: #fff;
-    font-family: "Mosk ExtraBold";
-    text-decoration: underline;
+    font-family: "Adamas";
     margin-top: 2em;
     color: #fff;
 }
