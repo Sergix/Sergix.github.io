@@ -1,3 +1,7 @@
+h1 {
+    font-family: "Mosk Bold";
+}
+
 .dev-text h2 {
     font-size: 3rem;
 }
@@ -7,9 +11,8 @@ figure h2 {
 }
 
 p {
-    font-size: 2rem;
-    font-family: "Segoe UI Light", sans-serif;
-    text-align: justify;
+    font-size: 1.6rem;
+    text-align: center;
 }
 
 .jumbotron {
@@ -68,16 +71,29 @@ p {
     -o-animation-duration: 4s;
 }
 
+.jumbotron .row img {
+    width: 100%;
+
+    animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -o-animation-duration: 3s;
+}
+
 .jumbotron .row p .num {
     font-size: 3rem;
 }
 
-.h3 {
-    font-family: serif;
-    font-size: 7rem;
-    color: #000;
-}
-
 .special-h {
     font-style: italic;
+}
+
+.project-text h3 {
+    color: #2be772;
+    font-size: 2.5rem;
+    font-family: "Mosk SemiBold", sans-serif;
+}
+
+.project-info {
+    margin-top: 50px;
 }

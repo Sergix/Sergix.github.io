@@ -7,36 +7,43 @@ Color Palette
 
 */
 
+* {
+    font-family: "Mosk Regular";
+}
+
 body {
-    background-color: #fefefe;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #f0f0f0;
 }
 
 h2 {
     color: #2b2944;
 }
 
+p {
+    font-family: "Mosk Regular";
+}
+
 .dev-text h2 {
     color: #2b2944;
-    font-family: "Panton Light Italic";
+    font-family: "Mosk Light";
     font-size: 4rem;
     margin-top: 3em;
 }
 
 .jumbotron {
     /*padding: 5em;*/
-    background-color: #fefefe;
+    background-color: #2be772;
 }
 
 .navbar {
-    background-color: #fefefe;
-    padding-left: 5%;
-    padding-right: 5%;
+    background-color: #f0f0f0;
     /*background-color: #1b1f2a;*/
     border-radius: 0px;
     position: fixed;
     z-index: 1001;
-    width: 100%;
-    border-bottom: 1px solid #efefef;
+    width: 90%;
 }
 
 .navbar-brand object {
@@ -58,7 +65,7 @@ h2 {
 #sergix-toggle-nav ul li a {
     font-size: 1.5rem;
     padding: 1em 1.5em 1em 1.5em;
-    font-family: "Segoe UI Light", sans-serif;
+    font-family: "Mosk Regular";
 }
 
 #sergix-toggle-nav ul li a:hover {
@@ -77,12 +84,12 @@ h2 {
 .info-section h3 {
     color: #2be772;
     font-size: 2.5rem;
-    font-family: "Segoe UI Semibold", sans-serif;
+    font-family: "Mosk SemiBold", sans-serif;
 }
 
 .info-section p {
     font-size: 1.5rem;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Mosk Regular", sans-serif;
 }
 
 .info, .project-images {

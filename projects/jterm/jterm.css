@@ -1,24 +1,3 @@
-.jumbotron .row img {
-    width: 100%;
-
-    animation-duration: 3s;
-    -moz-animation-duration: 3s;
-    -webkit-animation-duration: 3s;
-    -o-animation-duration: 3s;
-}
-
-h1 {
-    font-family: "Panton Light Italic";
-    font-size: 4rem;
-    margin-bottom: 10rem;
-}
-
-.img-row figure h3 {
-    font-family: "Segoe UI Light", sans-serif;
-    color: black;
-    padding: 2em;
-}
-
 .img-row figure img {
     width: 100%;
     height: 100%;

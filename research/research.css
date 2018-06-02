@@ -2,7 +2,7 @@
     color: #333;
     font-size: 4rem;
     padding: 2em 0 1em 0;
-    font-family: "Prime Light", Helvetica, sans-serif;
+    font-family: "Mosk Thin", Helvetica, sans-serif;
 }
 
 h2 {
@@ -12,7 +12,6 @@ h2 {
 
 p {
     font-size: 2.5rem;
-    font-family: "Segoe UI light", sans-serif;
 }
 
 .jumbotron {
@@ -41,4 +40,8 @@ p {
 .disabled:active {
     color: #444;
     text-decoration: none;
+}
+
+.dev-text {
+    text-align: center;
 }

@@ -32,16 +32,16 @@
     color: #4F4F4F;
     font-size: 6rem;
     padding: 2em 0 1em 0em;
-    font-family: "Adamas", "Panton Light Italic", Helvetica, sans-serif;
+    font-family: 'Mosk Regular', Helvetica, sans-serif;
 }
 
 .jumbotron {
-    background-image: url('/img/jumbotron-design.png');
+    /*background-image: url('/img/jumbotron-design.png');*/
     background-size: cover;
 }
 
 .image-info h2 {
-    font-family: 'Panton Light Italic';
+    font-family: 'Mosk Light';
     font-size: 18pt;
 }
 
