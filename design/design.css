@@ -22,17 +22,13 @@
   padding: 10px;
 }
 
-.navbar {
-    background-color: rgba(0, 0, 0, 0);
-    border-bottom: 0px;
-}
-
 .jumbotron h1 {
     width: 10%;
-    color: #4F4F4F;
+    color: #fff;
     font-size: 6rem;
     padding: 2em 0 1em 0em;
     font-family: 'Mosk Regular', Helvetica, sans-serif;
+    text-align: center;
 }
 
 .jumbotron {
@@ -43,6 +39,8 @@
 .image-info h2 {
     font-family: 'Mosk Light';
     font-size: 18pt;
+    text-align: center;
+    color: #fff;
 }
 
 @media screen and (max-width: 768px) {
